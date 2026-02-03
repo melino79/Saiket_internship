@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Interactive App</title>
+  <style>
+    body { text-align: center; font-family: Arial; }
+  </style>
+</head>
+<body>
+
+<h2 id="text">Hello..</h2>
+<button onclick="changeText()">Click</button>
+
+<script>
+  function changeText() {
+    document.getElementById("text").innerText =
+      "Button Clicked!!";
+  }
+</script>
+
+</body>
+</html>
